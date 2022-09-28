@@ -2,6 +2,7 @@ require_relative 'nameable'
 
 class BaseDecorator
   attr_accessor :nameable
+
   def initialize(nameable)
     @nameable = nameable
   end
